@@ -1,0 +1,68 @@
+.container{
+    min-height: 100svh;
+    min-width:100%;
+    background-image: url(../../assets/images/background.jpg);
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.watch{
+    min-width: 250px;
+    max-width: 768px;
+    min-height: 200px;
+    max-height: 500px;
+    margin: auto auto;
+    background-color: transparent;
+    border: 1px sold purple;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .watch {
+        font-size: 5rem;
+    }
+  }
+
+.disk{
+flex-basis: auto;
+margin-left: 3%;
+background-color: white;
+color:black;
+border-radius: 10px;
+box-shadow: 10px black 0.3;
+
+}
+
+.buttons{
+  
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin: auto;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
